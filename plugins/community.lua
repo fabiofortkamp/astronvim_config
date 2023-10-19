@@ -45,4 +45,5 @@ return {
   { "gennaro-tedesco/nvim-jqx", ft = { "json", "yaml" } },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.editing-support.treesj" },
+  { import = "astrocommunity.debugging.nvim-bqf" },
 }
