@@ -47,4 +47,5 @@ return {
   { import = "astrocommunity.editing-support.treesj" },
   { import = "astrocommunity.debugging.nvim-bqf" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
 }
