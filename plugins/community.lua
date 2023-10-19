@@ -42,4 +42,6 @@ return {
   },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   { import = "astrocommunity.programming-language-support.csv-vim" },
+  { import = "astrocommunity.programming-language-support.nvim-jqx" },
+  { "gennaro-tedesco/nvim-jqx", ft = { "json", "yaml" } },
 }
