@@ -40,4 +40,5 @@ return {
       scope = "file",
     },
   },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
 }
