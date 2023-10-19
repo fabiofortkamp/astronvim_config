@@ -41,4 +41,5 @@ return {
     },
   },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
+  { import = "astrocommunity.programming-language-support.csv-vim" },
 }
