@@ -12,19 +12,18 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.bash" },
-
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { -- further customize the options set by the community
     "zbirenbaum/copilot.lua",
     opts = {
       suggestion = {
-        auto_trigger = true,
+        auto_trigger = false,
         keymap = {
           accept = "<C-l>",
           accept_word = false,
           accept_line = false,
-          next = "<C-.>",
-          prev = "<C-,>",
+          next = "<M-]>",
+          prev = "<M-[>",
           dismiss = "<C/>",
         },
       },
