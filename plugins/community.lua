@@ -5,6 +5,7 @@ return {
   -- available plugins can be found at
   -- https://github.com/AstroNvim/astrocommunity
 
+  { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.pack.julia" },
   { import = "astrocommunity.pack.python" },
@@ -50,5 +51,5 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.color.tint-nvim" },
   { import = "astrocommunity.color.twilight-nvim" },
-  { "folke/twilight.nvim", lazy = false },
+  { import = "astrocommunity.color.headlines-nvim" },
 }
