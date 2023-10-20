@@ -2,7 +2,8 @@ return {
   -- Add the community repository of plugin specifications
   "AstroNvim/astrocommunity",
   -- example of importing a plugin, comment out to use it or add your own
-  -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
+  -- available plugins can be found at
+  -- https://github.com/AstroNvim/astrocommunity
 
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.pack.julia" },
@@ -48,4 +49,6 @@ return {
   { import = "astrocommunity.debugging.nvim-bqf" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.color.tint-nvim" },
+  { import = "astrocommunity.color.twilight-nvim" },
+  { "folke/twilight.nvim", lazy = false },
 }
