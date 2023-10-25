@@ -7,7 +7,7 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.pack.julia" },
-  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.json" },
