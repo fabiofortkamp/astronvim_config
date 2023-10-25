@@ -52,4 +52,6 @@ return {
   { import = "astrocommunity.color.tint-nvim" },
   { import = "astrocommunity.color.twilight-nvim" },
   { import = "astrocommunity.color.headlines-nvim" },
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.editing-support.hypersonic-nvim" },
 }
