@@ -4,7 +4,6 @@ return {
   -- example of importing a plugin, comment out to use it or add your own
   -- available plugins can be found at
   -- https://github.com/AstroNvim/astrocommunity
-
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.pack.julia" },
@@ -54,4 +53,5 @@ return {
   { import = "astrocommunity.color.headlines-nvim" },
   { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.editing-support.hypersonic-nvim" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
 }
