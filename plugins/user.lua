@@ -25,4 +25,14 @@ return {
     "christoomey/vim-tmux-navigator",
     lazy = false,
   },
+  {
+    "johmsalas/text-case.nvim",
+    event = "User AstroFile",
+    config = function()
+      require("textcase").setup {}
+      require("telescope").load_extension "textcase"
+      vim.api.nvim_set_keymap("n", "ga.", "<cmd>TextCaseOpenTelescope<CR>", { desc = "Telescope" })
+      vim.api.nvim_set_keymap("v", "ga.", "<cmd>TextCaseOpenTelescope<CR>", { desc = "Telescope" })
+    end,
+  },
 }
