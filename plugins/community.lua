@@ -55,4 +55,18 @@ return {
   { import = "astrocommunity.editing-support.hypersonic-nvim" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.editing-support.true-zen-nvim" },
+  { import = "astrocommunity.editing-support.neogen" },
+  {
+    "danymat/neogen",
+    opts = {
+      languages = {
+        python = {
+          template = {
+
+            annotation_convention = "google_docstrings",
+          },
+        },
+      },
+    },
+  },
 }
