@@ -69,4 +69,8 @@ return {
       },
     },
   },
+  { import = "astrocommunity.editing-support.dial-nvim" },
+  { import = "astrocommunity.editing-support.yanky-nvim" },
+  { import = "astrocommunity.editing-support.vim-move" },
+  { import = "astrocommunity.editing-support.refactoring-nvim" },
 }
