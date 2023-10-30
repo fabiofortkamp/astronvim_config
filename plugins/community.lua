@@ -76,4 +76,5 @@ return {
   { import = "astrocommunity.editing-support.refactoring-nvim" },
   { import = "astrocommunity.lsp.inc-rename-nvim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  { import = "astrocommunity.terminal-integration.flatten-nvim"}
 }
