@@ -50,6 +50,10 @@ return {
   { import = "astrocommunity.debugging.nvim-bqf" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.color.tint-nvim" },
+  { "levouh/tint.nvim", opts = {
+    tint = -90,
+    saturation = 0.6
+  } },
   { import = "astrocommunity.color.twilight-nvim" },
   { import = "astrocommunity.color.headlines-nvim" },
   { import = "astrocommunity.editing-support.auto-save-nvim" },
@@ -76,5 +80,5 @@ return {
   { import = "astrocommunity.editing-support.refactoring-nvim" },
   { import = "astrocommunity.lsp.inc-rename-nvim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
-  { import = "astrocommunity.terminal-integration.flatten-nvim"}
+  { import = "astrocommunity.terminal-integration.flatten-nvim" },
 }
