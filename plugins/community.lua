@@ -15,6 +15,7 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { -- further customize the options set by the community
     "zbirenbaum/copilot.lua",
