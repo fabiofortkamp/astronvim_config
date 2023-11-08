@@ -79,5 +79,4 @@ return {
   { import = "astrocommunity.editing-support.dial-nvim" },
   { import = "astrocommunity.editing-support.yanky-nvim" },
   { import = "astrocommunity.workflow.bad-practices-nvim" },
-  { import = "astrocommunity.workflow.hardtime-nvim" },
 }
