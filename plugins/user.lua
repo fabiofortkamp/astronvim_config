@@ -61,4 +61,7 @@ return {
       float_opts = { border = "rounded" },
     },
   },
+  {
+    "theHamsta/nvim-dap-virtual-text",
+  },
 }
