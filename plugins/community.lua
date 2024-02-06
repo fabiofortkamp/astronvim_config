@@ -17,6 +17,7 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.clojure" },
+  { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { -- further customize the options set by the community
     "zbirenbaum/copilot.lua",
@@ -55,7 +56,7 @@ return {
   { import = "astrocommunity.color.tint-nvim" },
   { "levouh/tint.nvim", opts = {
     tint = -90,
-    saturation = 0.6
+    saturation = 0.6,
   } },
   { import = "astrocommunity.color.twilight-nvim" },
   { import = "astrocommunity.color.headlines-nvim" },
