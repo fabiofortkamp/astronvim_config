@@ -11,6 +11,7 @@ return {
         "awk_ls",
         "dockerls",
         "docker_compose_language_service",
+        "texlab",
       })
     end,
   },
@@ -23,6 +24,8 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "prettier",
         "stylua",
+        "black",
+        "isort",
       })
     end,
   },
