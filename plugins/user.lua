@@ -185,7 +185,6 @@ return {
         "javascript",
         "luadoc",
         "luap",
-        "markdown",
         "markdown_inline",
         "query",
         "regex",

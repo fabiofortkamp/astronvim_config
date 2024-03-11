@@ -9,7 +9,6 @@ return {
   { import = "astrocommunity.pack.julia" },
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.bash" },
