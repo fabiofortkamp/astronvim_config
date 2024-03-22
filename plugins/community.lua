@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.haskell" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.java" },
