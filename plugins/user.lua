@@ -148,6 +148,8 @@ return {
       vim.g.slime_python_ipython = 1
 
       require("which-key").register {
+        ["<leader>qcm"] = { mark_terminal, "mark terminal" },
+        ["<leader>qcs"] = { set_terminal, "set terminal" },
       }
     end,
   },
@@ -183,6 +185,7 @@ return {
         "javascript",
         "luadoc",
         "luap",
+        "markdown",
         "markdown_inline",
         "query",
         "regex",
