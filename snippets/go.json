@@ -1,0 +1,13 @@
+{
+  "if err not nil": {
+    "prefix": ["iferr"],
+    "body": [
+      "if $1, err := $2; err != nil {",
+      "$3",
+      "}",
+      "",
+      ""
+    ],
+    "description": "Process some non-nil error"
+  }
+}
