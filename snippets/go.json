@@ -9,5 +9,22 @@
       ""
     ],
     "description": "Process some non-nil error"
+  },
+  "Test Function" : {
+    "prefix": ["tfun"],
+    "body" : [
+      "func Test$1(t *testing.T) {",
+      "$0",
+      "}"
+    ]
+  },
+  "Test Tables": {
+    "prefix": "ttab",
+    "body": [
+      "tests := []struct {",
+      "$1",
+      "}{",
+      "{$0},",
+      "}"]
   }
 }
