@@ -19,6 +19,8 @@ return {
   { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
+  { import = "astrocommunity.workflow.bad-practices-nvim" },
   { -- further customize the options set by the community
     "zbirenbaum/copilot.lua",
     opts = {
